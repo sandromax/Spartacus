@@ -1,4 +1,4 @@
-package io.sandromax.domain.layers;
+package io.sandromax.layers;
 
 public class Project {
     private String name;
@@ -9,5 +9,13 @@ public class Project {
 
     public Project(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getLocation() {
+        return location;
     }
 }

@@ -1,6 +1,6 @@
-package io.sandromax.domain.sample;
+package io.sandromax;
 
-import io.sandromax.domain.windows.ModalWindowExample;
+import io.sandromax.windows.ModalWindowExample;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;

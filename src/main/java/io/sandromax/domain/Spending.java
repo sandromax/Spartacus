@@ -1,6 +1,6 @@
 package io.sandromax.domain;
 
-import io.sandromax.domain.layers.Layer;
+import io.sandromax.layers.Layer;
 
 public class Spending {
     Layer tag;
