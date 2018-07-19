@@ -1,4 +1,4 @@
-package io.sandromax.domain;
+package io.sandromax.domain.tabs;
 
 public class WorkersSuppliers {
 }

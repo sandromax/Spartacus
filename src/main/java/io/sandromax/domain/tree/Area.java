@@ -1,16 +1,11 @@
-package io.sandromax.layers;
+package io.sandromax.domain.tree;
 
 import java.util.ArrayList;
-import java.util.List;
 
-/**
- * Описывает область строительства
- * Describes area of construction
- */
-public class Area extends Layer{
+public class Area  extends Layer{
     private Area parentArea;
 
-    private Area(String name, Area parentArea) {
+    public Area(String name, Area parentArea) {
         super(name);
         this.parentArea = parentArea;
     }

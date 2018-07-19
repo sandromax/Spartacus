@@ -1,13 +1,7 @@
-package io.sandromax.layers;
-
+package io.sandromax.domain.tree;
 
 import java.util.ArrayList;
-import java.util.List;
 
-/**
- * Позволяет разделять стройку на слои, в которых размещаються области
- *
- */
 public class Layer {
     private String name;
     private ArrayList<Area> children;
@@ -35,5 +29,9 @@ public class Layer {
 
     public void setChildren(ArrayList<Area> children) {
         this.children = children;
+    }
+
+    public void addChild(Area area) {
+        children.add(area);
     }
 }
