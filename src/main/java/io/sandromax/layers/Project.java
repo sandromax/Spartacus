@@ -1,18 +1,21 @@
 package io.sandromax.layers;
 
-public class Project {
-    private String name;
+public class Project extends Layer{
+    /**
+     * Physical address
+     */
     private String location;
 
-    public Project() {
-    }
-
     public Project(String name) {
-        this.name = name;
+        super(name);
     }
 
     public String getName() {
-        return name;
+        return super.getName();
+    }
+
+    public void setName(String newName) {
+        super.setName(newName);
     }
 
     public String getLocation() {

@@ -7,27 +7,21 @@ import java.util.List;
  * Описывает область строительства
  * Describes area of construction
  */
-public class Area {
-    private String name;
+public class Area extends Layer{
     private Area parentArea;
-    private ArrayList<Area> children;
-
-    public Area() {
-    }
 
     private Area(String name, Area parentArea) {
-        this.name = name;
+        super(name);
         this.parentArea = parentArea;
     }
 
     public Area(String name, Area parentArea, ArrayList<Area> children) {
-        this.name = name;
+        super(name, children);
         this.parentArea = parentArea;
-        this.children = children;
     }
 
     public String getName() {
-        return name;
+        return super.getName();
     }
 
     public Area getParentArea() {
@@ -39,10 +33,10 @@ public class Area {
     }
 
     public ArrayList<Area> getChildren() {
-        return children;
+        return super.getChildren();
     }
 
     public void addChild(Area child) {
-        children.add(child);
+        super.getChildren().add(child);
     }
 }
