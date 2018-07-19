@@ -1,6 +1,6 @@
-package io.sandromax.logic.storage;
+package io.sandromax.storage;
 
-import io.sandromax.layers.Project;
+import io.sandromax.domain.tree.Project;
 
 import java.nio.file.Path;
 

@@ -1,6 +1,7 @@
-package io.sandromax.logic.storage;
+package io.sandromax.storage;
 
-import io.sandromax.layers.Area;
+
+import io.sandromax.domain.tree.Area;
 
 public interface AreaStorage {
     boolean addNewArea(Area newArea);

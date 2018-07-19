@@ -1,4 +1,4 @@
-package io.sandromax.logic.storage;
+package io.sandromax.storage;
 
 public interface StatisticsStorage {
 }
